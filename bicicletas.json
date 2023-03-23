@@ -1,0 +1,21 @@
+
+[                   {"Marca": "Venzo Skyline", "id": 1, "imagen": "./assets/img/1.jpg", "tipo": "Rodado 29", "Caracteristicas":  "21 velocidades", "precio": 117000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Venzo tango", "id": 2, "imagen": "./assets/img/2.png","tipo": "Rodado 29", "Caracteristicas": "27 velocidades", "precio": 100000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Firebird adventure", "id": 3, "imagen": "./assets/img/3.jpg", "tipo": "Rodado 26", "Caracteristicas": "27 velocidades", "precio": 85000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Venzo Eolo Shadow", "id": 4, "imagen": "./assets/img/4.png",  "tipo": "Rodado 29","Caracteristicas": "27 velocidades", "precio": 145000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Venzo Frinda Belle", "id": 5, "imagen": "./assets/img/5.jpg", "tipo": "Rodado 27.5","Caracteristicas": "27 velocidades" , "precio": 140000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Volta Viggo" , "id": 6, "imagen": "./assets/img/6.jpg", "tipo": "Rodado 29", "Caracteristicas": "27 velocidades", "precio": 180000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Top Mega", "id": 7, "imagen": "./assets/img/7.png", "tipo": "Rodado 27.5", "Caracteristicas": "21 velocidades", "precio": 100000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Venzo Antix", "id": 8, "imagen": "./assets/img/21.jpg", "tipo": "Rodado 29", "Caracteristicas": "27 velocidades", "precio": 390000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Venzo Primal", "id": 9, "imagen": "./assets/img/9.png", "tipo": "Rodado 29", "Caracteristicas": "27 velocidades", "precio": 150000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Volta Avian", "id": 10, "imagen": "./assets/img/10.jpg", "tipo": "Rodado 29", "Caracteristicas": "27 velocidades", "precio": 285000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Volta Svel Boost", "id": 11, "imagen": "./assets/img/11.jpg", "tipo": "Rodado 29", "Caracteristicas": "27 velocidades", "precio": 350000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Belle Full", "id": 12, "imagen": "./assets/img/14.jpg", "tipo": "Rodado 29", "Caracteristicas": "27 velocidades", "precio": 300000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Twitter Leopardo", "id": 13, "imagen": "./assets/img/15.jpg", "tipo": "Rodado 29", "Caracteristicas": "29 velocidades", "precio": 540000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Spy Bullet", "id": 14, "imagen": "./assets/img/15.jpg", "tipo": "Rodado 29", "Caracteristicas": "21 velocidades", "precio": 110000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Venzo Blaze", "id": 15, "imagen": "./assets/img/17.jpg", "tipo": "Rodado 29", "Caracteristicas": "27 velocidades", "precio": 90000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Venzo Exceed", "id": 16, "imagen": "./assets/img/18.jpg", "tipo": "Rodado 29", "Caracteristicas": "27 velocidades", "precio": 830000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Top Mega Rowen", "id": 17, "imagen": "./assets/img/19.jpg", "tipo": "Rodado 29", "Caracteristicas": "27 velocidades", "precio": 80000, "stock": 100, "cantidad": 0  },
+                    {"Marca": "Sunpeed Zero", "id": 18, "imagen": "./assets/img/20.jpg", "tipo": "Rodado 29", "Caracteristicas": "27 velocidades", "precio": 120000, "stock": 100, "cantidad": 0  }
+                    
+]

@@ -1,0 +1,368 @@
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+}
+.logo {     
+
+    height: 100px;
+    width: 100px;
+    transition: width 4s, height 4s;
+    border-radius: 50%;
+    border: 5px solid #5d6869;
+}
+
+.logo:hover {
+
+    width: 90px;
+    height: 90px;
+}
+
+#navegacionActiva {
+       
+    color: rgb(233, 248, 227);
+}
+      
+.navbar {
+ 
+    width: 100%;
+    background-image: linear-gradient(to left,rgb(220, 213, 211), rgb(163, 204, 216));   
+}
+ 
+
+.navbar-nav li a{
+       
+    color: rgb(243, 243, 123);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-right: 100px;    
+    text-transform: uppercase; 
+    font-weight: bolder;
+    margin-left: 100px;
+}
+
+
+
+ 
+/*------------FORMATO-----------------*/
+
+p {   
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+   
+#producto p {
+   font-size: 1.20rem;
+   
+}
+   
+   h1 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+   }
+   
+   h2 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.20rem;
+   }  
+   
+   
+   h3 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+   }
+
+#slogan {
+margin: 30px;
+
+}
+
+
+/*-----------INICIO-CARRITO----------*/
+
+.error{
+    font-size: 15px;
+}
+
+
+.bicicletas__card-img{
+    width: 350px; 
+    height: auto;     
+}
+
+img:hover {
+    transform: scale(1.2, 1.2);    
+  }  
+
+.finalizarCompra{
+    max-width: 500px;
+    
+}
+
+
+/*--------------------------CONTACTOS--------------------*/
+
+
+.ibody {
+    background-color: #ecf0f3;
+    width: 50%;
+    margin: 30px auto;
+    width: 450px;
+    border: 1px solid #bfd8eb;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.jumbotron {
+background-color: #bfd8eb;
+ }
+
+.jumbotron h1 {
+color: black;
+font-size: 1.75rem;
+text-align: center;
+color: white;
+text-shadow: 0px 1px white;
+}
+
+
+.form {
+    max-inline-size: 550px;
+    margin: auto;
+  }
+  
+  .form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
+  }
+  
+  .form label span {
+    color: #DA1414;
+  }
+  
+  .form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: .5em;
+    border: 1px solid #858C94;
+  }
+  .form textarea {
+    margin-block-end: 2em;
+    font-family: inherit;
+  }
+  
+input::-webkit-input-placeholder {
+color: #86646488;
+
+} 
+  
+
+#envio {
+opacity: 0;
+
+}
+
+.ocultar {
+  visibility: hidden;
+}
+
+   
+.consultas {
+
+ margin-top: 40px;
+}
+
+.consultas h4 {
+text-align: center;
+font-size: 0,50rem;
+font-weight: bolder;
+text-decoration: underline 2px black;
+text-transform: uppercase;
+}
+
+
+.consultas p {
+
+font-size:0,75rem;
+
+}
+
+.btn { 
+
+width:auto;
+height:40px;
+background-color:rgb(191, 224, 240);
+color:black;
+margin: 5px;  
+visibility: visible;
+}  
+
+.btn-warning {
+
+  background-color: rgb(246, 218, 181);
+
+}
+
+/*------------------RESOLUCION----------*/
+   
+ @media (max-width: 480px) {
+   .ibody {
+   width: 95%;
+   }
+   .jumbotron h1{
+    font-size: 1.25rem; 
+   }
+   .titulo h1 {
+   font-size: 1.35rem;
+   }
+   .titulo h2 {
+     font-size: 1.10rem;
+   }
+     .titulo h3 {
+   font-size: 1rem;
+   }  
+   }
+ /*---------------FOOTER--------------*/  
+   
+
+footer {
+    background:#202020;
+    width: 100%;
+    }
+    
+    .footerInformacion {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    }
+    
+    .informacion h1, .redesSociales h1, .contacto h1 {
+    font-size: 1.20rem;
+    color: #ec6161;  
+  }
+    
+    .containerBody {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    }
+    
+    .informacion {
+    max-width: 400px;
+    margin-right: 20px;
+    }
+    
+    .informacion p {
+    font-size: 0.70rem;
+    color: #c7c7c7;  
+    margin-top: 20px;
+    font-weight: bolder;
+    text-align: justify;
+    }
+    
+    .consultas p {
+      
+      text-transform: none;
+    }
+
+
+    .redesSociales {
+    max-width: 400px;
+    }
+    
+    .redes {
+    margin-top: 20px;
+    display: flex;
+    }
+    
+    .redes img {
+    width: 20px;                                            
+    height: 20px;
+    }
+    
+    .redes label {
+    font-size: 0.70rem;
+    color: #c7c7c7;
+    margin-top: 10px;
+    margin-left: 20px;  
+    }
+    
+    .contacto {
+    max-width: 400px;
+    }
+    
+    .contactos {
+    margin-top: 20px;
+    display: flex;
+    }
+    
+    .contacto h1 {
+    font-size: 1.00rem;
+    }
+    
+    .contacto img {
+    width: 20px;
+    height: 20px;
+    }
+    
+    .contactos label {
+    font-size: 0.70rem;
+    color: #c7c7c7;
+    margin-left: 20px;
+    max-width: 140px;
+    margin-top: 10px;
+    }    
+    
+    .containerFooter {
+    width: 100%;
+    background: #101010;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    }
+    .condiciones a {
+    font-size: 0.70rem;
+    color: #c7c7c7;
+    text-decoration: none;  
+    font-weight: bolder;
+    }
+    
+    .derechos p {
+    font-size: 0.70rem;
+    color: #c7c7c7;
+    font-weight: bolder;
+    }
+    
+    @media screen and (max-width: 900px) {
+    .containerBody {
+    flex-wrap: wrap;  
+    }  
+    }
+    @media screen and (max-width: 430px) {
+    .redesSociales {
+    padding-right: 15px;  
+    }
+    }
+    
